@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>生生不息教育/EverGrow Education</title>
+
+  <!-- ===== SEO 基础 ===== -->
+  <meta name="description" content="生生不息教育（EverGrow Education）提供留学与升学咨询：留学申请、升学规划、语言培训。更少焦虑，更好结果——更多的人生可能。" />
+  <meta name="keywords" content="生生不息教育, EverGrow Education, evergrowedu, 留学咨询, 升学规划, 海外本科, 海外硕士, 海外博士, 文书, 选校, 语言培训" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://evergrowedu.com/" />
+  <meta name="theme-color" content="#0b5ea8" />
+
+  <!-- ===== 统一网页标签页 Logo（favicon）为公司 Logo ===== -->
+  <link rel="icon" href="LOGO.png" type="image/png" />
+  <link rel="icon" href="生生不息LOGO6.png" type="image/png" />
+  <link rel="apple-touch-icon" href="LOGO.png" />
+  <link rel="mask-icon" href="LOGO.svg" color="#0b5ea8" />
+
+  <!-- ===== Open Graph / Twitter 预览卡片 ===== -->
+  <meta property="og:site_name" content="生生不息教育 · EverGrow Education" />
+  <meta property="og:title" content="生生不息教育 · EverGrow Education" />
+  <meta property="og:description" content="以克制设计与严谨流程，提供全流程的留学与升学咨询服务。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://evergrowedu.com/" />
+  <meta property="og:image" content="pic.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="生生不息教育 · EverGrow Education" />
+  <meta name="twitter:description" content="更少焦虑，更好结果——更多的人生可能。" />
+  <meta name="twitter:image" content="pic.jpg" />
+
+  <!-- ===== 结构化数据（Organization + Website） ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "生生不息教育",
+    "alternateName": "EverGrow Education",
+    "url": "https://evergrowedu.com/",
+    "logo": "LOGO.png",
+    "email": "offers@evergrowedu.com",
+    "sameAs": []
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "生生不息教育 · EverGrow Education",
+    "url": "https://evergrowedu.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://evergrowedu.com/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <style>
+    /* ===== Apple-like minimalist tokens ===== */
+    :root{
+      --bg:#ffffff;
+      --layer:#ffffff;
+      --text:#0a0a0a;       /* almost black */
+      --muted:#6e6e73;      /* apple gray */
+      --line:#d2d2d7;       /* hairline */
+      --tint:#0b5ea8;       /* brand blue */
+      --accent:#e43b3b;     /* brand red */
+      --radius:20px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0; color:var(--text); background:var(--bg); font:16px/1.65 -apple-system,BlinkMacSystemFont,"SF Pro Text",Segoe UI,Roboto,Inter,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"}
+    a{color:inherit; text-decoration:none}
+    img{max-width:100%; display:block}
+    .container{width:min(1080px,92%); margin-inline:auto}
+
+    /* Header */
+    header{position:sticky; top:0; z-index:50; backdrop-filter:saturate(180%) blur(12px); background:rgba(255,255,255,.7); border-bottom:1px solid rgba(0,0,0,.06)}
+    .nav{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:.8rem 0}
+    .brand{display:flex; align-items:center; gap:.6rem; font-weight:700; letter-spacing:.2px}
+    .brand img{height:30px; width:auto}
+    nav ul{display:flex; gap:1.2rem; margin:0; padding:0; list-style:none}
+    nav a{color:#1d1d1f}
+    nav a.muted{color:var(--muted)}
+    .menu{display:none}
+
+    /* Hero */
+    .hero{padding:110px 0 72px; text-align:center; background:linear-gradient(180deg,#fbfbfd,transparent 60%)}
+    .eyebrow{color:var(--muted); font-size:1.05rem}
+    h1{margin:8px 0 12px; font-size:clamp(2.2rem,5.6vw,3.6rem); line-height:1.05; letter-spacing:-.02em; font-weight:700}
+    .subtitle{margin:0 auto 26px; color:var(--muted); font-size:1.125rem; width:min(740px,92%)}
+    .cta{display:flex; gap:.8rem; justify-content:center; flex-wrap:wrap}
+    .btn{display:inline-flex; align-items:center; gap:.55rem; padding:.85rem 1.1rem; border-radius:12px; border:1px solid var(--line); background:#000; color:#fff; font-weight:700}
+    .btn.ghost{background:#fff; color:#000}
+    .chev{display:inline-block; width:.8em; height:.8em; border-right:2px solid currentColor; border-bottom:2px solid currentColor; transform:rotate(-45deg); margin-left:.1em}
+
+    .stage{margin-top:32px; border-radius:28px; overflow:hidden; border:1px solid var(--line); background:#fff}
+    .stage img{width:100%; height:520px; object-fit:cover}
+
+    section{padding:78px 0}
+    .section-head{text-align:center; margin-bottom:24px}
+    .section-head h2{margin:0 0 8px; font-size:1.6rem}
+    .muted{color:var(--muted)}
+
+    /* Feature grid */
+    .grid-3{display:grid; grid-template-columns:repeat(3,1fr); gap:18px}
+    .card{border:1px solid var(--line); border-radius:22px; padding:22px; background:#fff}
+    .card h3{margin:.2rem 0 .4rem; font-size:1.1rem}
+    .card p{margin:0; color:var(--muted)}
+
+    /* Team */
+    .member{display:flex; align-items:center; gap:14px}
+    .avatar{width:54px; height:54px; border-radius:14px; background:#f2f4f8; display:grid; place-items:center; font-weight:700; color:var(--tint); border:1px solid var(--line)}
+
+    /* Image rows */
+    .grid-2{display:grid; grid-template-columns:1fr 1fr; gap:22px; align-items:center}
+    .plate{border:1px solid var(--line); border-radius:24px; overflow:hidden; background:#fff}
+
+    /* Footer */
+    footer{border-top:1px solid var(--line); padding:26px 0 46px; color:var(--muted)}
+
+    /* Form (kept for potential future use; hidden by default) */
+    form{display:none}
+
+    /* Motion */
+    @media (prefers-reduced-motion:no-preference){
+      .btn{transition:transform .15s ease}
+      .btn:hover{transform:translateY(-1px)}
+      .card{transition:transform .2s ease}
+      .card:hover{transform:translateY(-2px)}
+    }
+
+    /* Responsive */
+    @media (max-width: 980px){
+      .grid-3{grid-template-columns:1fr 1fr}
+      .grid-2{grid-template-columns:1fr}
+      .stage img{height:420px}
+    }
+    @media (max-width: 700px){
+      nav ul{display:none}
+      .menu{display:inline-flex; padding:.5rem .7rem; border:1px solid var(--line); border-radius:10px; background:#fff}
+      .grid-3{grid-template-columns:1fr}
+      .stage img{height:320px}
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="生生不息教育 首页">
+        <img src="LOGO.png" alt="生生不息教育 EverGrow Education logo" />
+        <span>生生不息教育 · EverGrow Education</span>
+      </a>
+      <nav aria-label="主导航">
+        <ul>
+          <li><a class="muted" href="#features">方案</a></li>
+          <li><a class="muted" href="#team">团队</a></li>
+          <li><a class="muted" href="#cases">案例</a></li>
+          <li><a class="muted" href="#about">关于</a></li>
+          <li><a class="muted" href="#contact">联系</a></li>
+        </ul>
+      </nav>
+      <button class="menu" onclick="document.querySelector('nav ul').style.display=(document.querySelector('nav ul').style.display==='flex'?'none':'flex')">菜单</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top" class="hero">
+    <div class="container">
+      <div class="eyebrow">教育可能是人的一生中最重要的事情</div>
+      <h1>我们帮助你获得更好的教育</h1>
+      <p class="subtitle">更少的焦虑，更好的结果——更多的人生可能</p>
+      <div class="cta">
+        <a class="btn" href="#contact">联系我们 <span class="chev"></span></a>
+        <a class="btn ghost" href="#features">了解方案 <span class="chev"></span></a>
+      </div>
+      <div class="stage" aria-hidden="true">
+        <!-- 将远程图片替换为本地 pic.jpg -->
+        <img alt="极简风产品横幅" src="pic.jpg"/>
+      </div>
+    </div>
+  </main>
+
+  <!-- Features -->
+  <section id="features">
+    <div class="container">
+      <div class="section-head">
+        <h2>我们提供哪些帮助</h2>
+        <div class="muted">专业细心、认真负责</div>
+      </div>
+      <div class="grid-3">
+        <article class="card"><h3>留学申请</h3><p>我们提供任意阶段的留学申请：高起本、专升本、国际本科、硕博申请</p></article>
+        <article class="card"><h3>升学规划</h3><p>我们与学生、家长一起思考下一代的未来，制定长期的升学路径</p></article>
+        <article class="card"><h3>语言培训</h3><p>我们提供韩语、日语、英语等语言培训，为你提供了解世界的另一把钥匙</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team">
+    <div class="container">
+      <div class="section-head">
+        <h2>我们的团队</h2>
+        <div class="muted">来自国内外教授、海外名校硕博、行业资深留学顾问</div>
+      </div>
+      <div class="grid-2">
+        <article class="card"><h3>学术顾问</h3><p>由国内外高校教授引领，提供专业的学术建议；用心负责，认真对待每一个学生，提供整体的学术规划</p></article>
+        <article class="card"><h3>留学顾问</h3><p>资深留学顾问，深耕行业多年，成功案例丰富；海外名校硕博，专业性强，经验丰富，了解海内外最新动向</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cases -->
+  <section id="cases">
+      <div class="container">
+      <div class="section-head">
+        <h2>他们的故事</h2>
+        <div class="muted">真实案例</div>
+      </div>
+      <div class="grid-3">
+        <article class="card"><h3>同学1</h3><p>国内二本院校，本科GPA 3.1，美国全奖硕士</p></article>
+        <article class="card"><h3>同学2</h3><p>海外硕士，GPA3.8，美国全奖博士</p></article>
+        <article class="card"><h3>更多</h3><p>期待分享你的故事</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="section-head">
+        <h2>关于</h2>
+        <div class="muted">教育</div>
+      </div>
+        生生不息教育 由一群志同道合的人组建而来。他们是高校教授、行业资深留学顾问和海外硕博研究生。我们接受的教育要求我们为那些想要获得更好受教育机会的人提供帮助和支持。民族的真正危机是失去未来——下一代，家庭亦然！失去下一代的根本原因——教育！民族的唯一希望——生生不息！
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-head">
+        <h2>联系</h2>
+        <div class="muted">工作日 08:30–17:30 · 隐私优先</div>
+      </div>
+      <div class="card" style="max-width:720px; margin:0 auto">
+        <p class="muted" style="margin:0">
+          邮箱：offers@evergrowedu.com<br>
+          电话：+86 17712517527<br>
+          微信：EverGrowEducation<br>
+          地点：江苏苏州昆山市 · Washington, USA（远程支持）
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap">
+      <div>© <span id="y"></span> 生生不息（苏州）教育发展有限公司 </div>
+      <div><a href="#" class="muted">隐私政策</a> · <a href="#" class="muted">使用条款</a></div>
+    </div>
+  </footer>
+
+  <!-- ===== 站点统计：Plausible + GA4（根据需要二选一或同时使用） ===== -->
+  <!-- Plausible（隐私友好，零 Cookie）。将 data-domain 设置为正式域名 -->
+  <script defer data-domain="evergrowedu.com" src="https://plausible.io/js/script.js"></script>
+
+  <!-- Google Analytics 4：把 G-XXXXXXXX 换为你的 GA4 测量 ID 即可 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXX');
+  </script>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
